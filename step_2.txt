@@ -1,31 +1,33 @@
-2a)ping 178.128.226.224 -t
+2a)root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp port 80
 
 2b)
-
-listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
-
-03:33:28.324781 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 292, length 40
-
-03:33:28.324895 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 292, length 40
-
-03:33:28.331066 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 35396 unreachable, length 165
-
-03:33:28.331112 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 42349 unreachable, length 165
-
-03:33:29.329064 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 293, length 40
-
-03:33:29.329140 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 293, length 40
-
-03:33:30.331995 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 294, length 40
-
-03:33:30.332072 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 294, length 40
-
-03:33:31.336214 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 295, length 40
-
-03:33:31.336286 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 295, length 40
+19:07:34.137403 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 3171280840, win 64240, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0
+19:07:34.137530 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071: Flags [S.], seq 3520395791, ack 3171280841, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+19:07:34.140799 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 1026, length 0
+19:07:34.151500 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:7, ack 1, win 1026, length 6: HTTP
+19:07:34.151593 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071: Flags [.], ack 7, win 502, length 0
+19:07:34.651856 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 7, ack 1, win 1026, length 0
+19:07:34.652303 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071: Flags [F.], seq 1, ack 8, win 502, length 0
+19:07:34.655168 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62071 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2, win 1026, length 0
+19:07:37.674802 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 917966741, win 64240, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0
+19:07:37.674907 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073: Flags [S.], seq 2296139449, ack 917966742, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+19:07:37.677858 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 1026, length 0
+19:07:37.688399 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:7, ack 1, win 1026, length 6: HTTP
+19:07:37.688523 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073: Flags [.], ack 7, win 502, length 0
+19:07:38.188906 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 7, ack 1, win 1026, length 0
+19:07:38.189484 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073: Flags [F.], seq 1, ack 8, win 502, length 0
+19:07:38.192387 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62073 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2, win 1026, length 0
+19:07:40.971411 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 3307360418, win 64240, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0
+19:07:40.971513 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074: Flags [S.], seq 31220863, ack 3307360419, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+19:07:40.974531 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 1026, length 0
+19:07:40.984688 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:7, ack 1, win 1026, length 6: HTTP
+19:07:40.984774 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074: Flags [.], ack 7, win 502, length 0
+19:07:41.485811 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 7, ack 1, win 1026, length 0
+19:07:41.486404 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.http > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074: Flags [F.], seq 1, ack 8, win 502, length 0
+19:07:41.489426 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca.62074 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2, win 1026, length 0
 
 2c)
 Source Host: ASUSTekC_77:79:e6 (24:4b:fe:77:79:e6)
-Source Port:
+Source Port: 62074
 Destination Host: Destination: Sagemcom_24:03:f8 (3c:17:10:24:03:f8)
-Destination Port:
+Destination Port: 80
