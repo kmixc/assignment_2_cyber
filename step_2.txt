@@ -1,0 +1,31 @@
+2a)ping 178.128.226.224 -t
+
+2b)
+
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+
+03:33:28.324781 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 292, length 40
+
+03:33:28.324895 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 292, length 40
+
+03:33:28.331066 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 35396 unreachable, length 165
+
+03:33:28.331112 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 42349 unreachable, length 165
+
+03:33:29.329064 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 293, length 40
+
+03:33:29.329140 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 293, length 40
+
+03:33:30.331995 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 294, length 40
+
+03:33:30.332072 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 294, length 40
+
+03:33:31.336214 IP bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca > lamponubuntu2004-s-1vcpu-1gb-tor1-01: ICMP echo request, id 1, seq 295, length 40
+
+03:33:31.336286 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > bras-vprn-brfron8902w-lp130-02-142-112-171-252.dsl.bell.ca: ICMP echo reply, id 1, seq 295, length 40
+
+2c)
+Source Host: ASUSTekC_77:79:e6 (24:4b:fe:77:79:e6)
+Source Port:
+Destination Host: Destination: Sagemcom_24:03:f8 (3c:17:10:24:03:f8)
+Destination Port:
