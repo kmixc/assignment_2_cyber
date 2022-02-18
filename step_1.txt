@@ -1,0 +1,16 @@
+tcpdump -u port 
+
+03:21:15.307423 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:19.781856 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:20.706897 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:22.117911 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:23.151884 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:24.216895 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:25.482882 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:26.491861 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:27.397771 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+03:21:28.130865 IP bras-base-malton2341w-grc-08-216-209-181-143.dsl.bell.ca.62775 > ubuntu-s-1vcpu-1gb-tor1-01.3500: UDP, length 0
+
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel
